@@ -65,3 +65,13 @@ else {
     console.log("não pode");
 
 }
+
+let 10= prompt("digitar um numero")
+
+if(numero>0) {
+    alert (numero+"é positivo");
+    } else if (numero < 0){
+        alert(numero + "é negativo");
+   } else {
+    alert (`${numero}`)
+   }
