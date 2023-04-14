@@ -1,3 +1,35 @@
-.label {
-    color:blueviolet;
+.conteiner {
+    width:400px;
+    margin:auto;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #4e4d4d;
+    border: 2px solix #75fb48;
+    border-radius: 5px;
+    text-align: center;
 }
+form{
+    
+    display: inline-block;
+    text-align: left;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+}
+input[type="text"], input[type="passaword"], input[type="submit"] {
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 10px ;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    box-sizing: border-box ;
+}
+input[type="submit"]{
+    background-color:#4caf50 ;
+    color: #fff;
+    border:none;
+    cursor:pointer;
+    margin-top: 10px;
+}
+
