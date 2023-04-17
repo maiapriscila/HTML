@@ -66,7 +66,7 @@ else {
 
 }
 
-let 10= prompt("digitar um numero")
+let 10= prompt("10")
 
 if(numero>0) {
     alert (numero+"é positivo");
